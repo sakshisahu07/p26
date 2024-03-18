@@ -1,0 +1,391 @@
+ html {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('https://img.freepik.com/free-photo/background_53876-32170.jpg?w=740&t=st=1707938145~exp=1707938745~hmac=184fc76d711cdb0e3278deae9493e62acce66cb5b6315d2984fe7713cf1a2e30');
+    height: 100vh; 
+    background-repeat: no-repeat;
+    background-image: cover;
+}
+
+
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* overflow-x: hidden; */
+}
+   
+.nav .midnav {
+    display: flex;
+}
+.nav .midnav li{
+    list-style-type: none;
+}
+.nav .midnav li a{
+    color: black;
+    font-size: 30px;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: 500;
+ }
+ .nav .startnav li img{
+    width: 200px;
+ }
+ .nav .startnav{
+    list-style-type: none;
+ }
+
+ .nav .endnav li{
+    list-style-type: none;
+}
+.nav .endnav li a{
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    text-decoration: none;
+    border: 5px;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px; */
+} 
+/*           hero section start                        */
+.hero{
+    display: flex;
+    padding-top: 50px;
+    background-image: url('https://img.freepik.com/free-photo/background_53876-32170.jpg?w=740&t=st=1707938145~exp=1707938745~hmac=184fc76d711cdb0e3278deae9493e62acce66cb5b6315d2984fe7713cf1a2e30');
+    height: 100vh;
+    /* overflow-x: hidden; */
+}
+.hero .hero1{
+    color: black;
+    font-weight: bold;
+    /* justify-content: space-evenly; */
+    padding-left: 150px;
+    font-size: 60px;
+    
+}
+.hero .hero21 li{
+    list-style-type: none;
+}
+.hero .hero21 li a{
+    text-decoration: none;
+    color:black;
+    background-color:rgb(240, 240, 6);
+    padding: 5px 10px 5px 10px;
+}
+.hero .hero3 li{
+    list-style-type: none;
+}
+.hero .hero3 li a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px 10px 5px 10px;
+    padding-left:10px;
+
+
+    
+}
+.hero .girl{
+    width: 1300px;
+    display: flex;
+    justify-content: right;
+}
+.hero .girl .backimg img{
+    position: relative;
+    z-index: 1;
+    right: 100px;
+    width: 600px;
+
+}
+.hero .girl .girl1 img{
+    width: 400px;
+    padding-left: 200px;
+    position: relative;
+    padding-top: 0px;
+    z-index: 2;
+    left: 400px;
+
+}
+#awesome li{
+      color: black;
+      padding: 20px;
+      margin: 10px;
+      
+}
+#awesome{
+    position: absolute;
+    top: 500px;
+    left: 900px;
+    font-size: 50px;
+}
+.new{
+     overflow-x: hidden;
+     height: 100vh;
+     
+}
+.new .sakshi{
+     /* position: relative; */
+    overflow-x: hidden; 
+
+
+}
+.new .sakshi .ameli2 img{
+    width: 600px;
+    position: absolute;
+    z-index: -3;
+}
+.new .sakshi .ameli1 img{
+    width: 400px;
+    position: absolute;
+    z-index: 1;
+    padding-top:20px;
+
+}
+#click{
+    font-weight: bold;
+    font-size: 60px;
+    display: grid;
+    grid-template-columns: auto auto; 
+}
+
+
+
+#now{
+    font-weight: bold;
+    font-size: 40px;
+    grid-template-columns: auto auto;
+    
+}
+#beauty{
+    position: absolute;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;   
+}
+/* .mie{
+    height: 100vh;
+} */
+.new .mie .now{
+    display: flex;
+}
+.design{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+#my{
+    color: black;
+    font-weight: bold;
+    font-size: 60px; 
+
+}
+#story{
+    font-size: 40px;
+}
+
+#name{
+    font-weight: bold;
+    font-size: 50px;
+    
+}
+#is{
+    font-weight: bold;
+    font-size: 50px;
+}
+#sakshi{
+    font-weight: bold;
+    font-size: 50px;
+    
+}
+.Asection{
+    overflow-x: hidden;
+}
+#skills{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 500px;
+    padding: 40px;
+    /* border: 2px solid black; */
+     overflow-x: hidden;
+     /* padding-left: 1000px; */
+     margin: 0px;
+     /* display: inline; */
+
+    
+     
+}
+
+
+#skills img{
+    width: 200px;
+    padding: 50px;
+}
+
+.C{
+    background-image: url('https://img.freepik.com/free-photo/background_53876-32170.jpg?w=740&t=st=1707938145~exp=1707938745~hmac=184fc76d711cdb0e3278deae9493e62acce66cb5b6315d2984fe7713cf1a2e30');
+    height: 100vh;
+    overflow-x: hidden;
+    
+}
+.C .client{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-evenly;
+    padding: 100px 140px 100px 140px;
+    align-items: center;
+}
+.C .client div center{
+    font-size: 75px;
+}
+.C .client div{
+    font-size: 30px;
+}
+.C .client2 h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+.C .client2 div{
+    font-size: 25px;
+}
+@media(max-width:768px) {
+
+    .C .client{
+        display: flex;
+        background-color: black;
+        color: white;
+        justify-content: space-evenly;
+        padding: 60px 140px 60px 90px;
+        align-items: center;
+        
+    }
+    .C .client div center{
+        font-size: 25px;
+    }
+    .C .client div{
+        font-size: 15px;
+    }
+    .C .client2 h1 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .C .client2 div{
+        font-size: 15px;
+    }
+    
+}
+.all .pack{
+    display: flex;
+    list-style-type: none;
+    height: 100vh;
+    position: absolute;
+
+}
+.all .pack li a{
+    text-decoration: none;
+    padding: 50px;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    
+}
+#pic{
+     overflow-x: hidden; 
+}
+#pic .photo{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-image: url('https://img.freepik.com/free-photo/background_53876-32170.jpg?w=740&t=st=1707938145~exp=1707938745~hmac=184fc76d711cdb0e3278deae9493e62acce66cb5b6315d2984fe7713cf1a2e30');
+
+}
+#pic .photo div{
+    top: 100px;
+}
+/* #pic .photo div{
+    display: grid;
+    grid-template-columns: auto auto; */
+    /* top: 3600px; */
+
+    
+#pic .photo #a img{
+    width: 600px;
+    padding-top: 85px;
+    padding-bottom: 20px;
+}
+#pic .photo #b img{
+    width: 700px;
+    padding-top: 85px;
+}
+#pic .photo #c img{
+    width: 550px;
+    padding-top: 85px;
+}
+#pic .photo #d img{
+    width: 600px;
+}
+#pic .photo #e img{
+    width: 700px;
+    padding-bottom: 20px;
+}
+#pic .photo #f img{
+    width: 600px;
+}
+@media(max-width:769px){
+    .hero .girl .girl1 img{
+        width: 400px;
+        padding-left: 200px;
+        position: relative;
+        padding-top: 0px;
+        z-index: 2;
+        left: 400px;
+    
+    }
+}
+.lets{
+    background-image: url('https://wallpapercave.com/wp/wp5057641.jpg');
+    font-size: 100px;
+    color: white;
+    height: 100vh;
+    font-weight: bold;
+    padding-top: 280px;
+    
+}
+.lets .hello div center{
+    font-size: 75px;
+    display: flex;
+
+}
+.lets .hello{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px;
+    padding-top: 280px;
+}
+
+#phone img{
+    width: 80px;
+}
+#phone h2{
+    font-size: 50px;
+}
+#mail img{
+    width: 80px;
+}
+#mail h2{
+    font-size: 50px;
+}
+#follow img{
+    width: 100px;
+}
+#follow h2{
+    font-size: 50px;
+}
+
